@@ -163,7 +163,7 @@ googleAnalytics = ""
   [params.team]
     enable = true
     # Possibility to center items
-    #center = true
+    center = true
     title = "Our amazing team"
     subtitle = "We are really sick dudes"
     description = "Ayyyyyy"
@@ -254,7 +254,7 @@ googleAnalytics = ""
     error = "Message could not be sent. Please contact us at mail@example.com instead."
 
     [params.contact.captcha]
-      # sitekey = ""
+      sitekey = ""
 
     # 'warning' defines error messages for invalid inputs
     [params.contact.form.name]
