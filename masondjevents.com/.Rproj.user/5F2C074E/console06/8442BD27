@@ -375,3 +375,76 @@ content			layouts			public
 Reinitialized existing Git repository in /Users/adriel/MAIN/masondjevents.com/.git/
 ]0;~/MAIN/masondjevents.comAdrielTheMaster:masondjevents.com adriel$ 1[Kgit [K [K[K[K[Kgit remote add origin https://github.com/AdrielC/masondjevents.com
 ]0;~/MAIN/masondjevents.comAdrielTheMaster:masondjevents.com adriel$ gi t[K [K[Kt add *
+]0;~/MAIN/masondjevents.comAdrielTheMaster:masondjevents.com adriel$ git [K commit [K -,[Km "lmao [K"
+[master 9b974cb] lmao
+ 2 files changed, 375 insertions(+), 1 deletion(-)
+ create mode 100644 masondjevents.com/.Rproj.user/5F2C074E/console06/8442BD27.env
+]0;~/MAIN/masondjevents.comAdrielTheMaster:masondjevents.com adriel$ git [K [K us[K[Kpushc[K
+fatal: The current branch master has no upstream branch.
+To push the current branch and set the remote as upstream, use
+
+    git push --set-upstream origin master
+
+]0;~/MAIN/masondjevents.comAdrielTheMaster:masondjevents.com adriel$ v[Kgit push --set-upstream origin master
+To https://github.com/AdrielC/masondjevents.com
+ ! [rejected]        master -> master (non-fast-forward)
+error: failed to push some refs to 'https://github.com/AdrielC/masondjevents.com'
+hint: Updates were rejected because the tip of your current branch is behind
+hint: its remote counterpart. Integrate the remote changes (e.g.
+hint: 'git pull ...') before pushing again.
+hint: See the 'Note about fast-forwards' in 'git push --help' for details.
+]0;~/MAIN/masondjevents.comAdrielTheMaster:masondjevents.com adriel$ git [K pull
+From https://github.com/AdrielC/masondjevents.com
+ * [new branch]      master     -> origin/master
+There is no tracking information for the current branch.
+Please specify which branch you want to merge with.
+See git-pull(1) for details.
+
+    git pull <remote> <branch>
+
+If you wish to set tracking information for this branch you can do so with:
+
+    git branch --set-upstream-to=origin/<branch> master
+
+]0;~/MAIN/masondjevents.comAdrielTheMaster:masondjevents.com adriel$ git pull master
+fatal: 'master' does not appear to be a git repository
+fatal: Could not read from remote repository.
+
+Please make sure you have the correct access rights
+and the repository exists.
+]0;~/MAIN/masondjevents.comAdrielTheMaster:masondjevents.com adriel$ git pull master[1@s[1@u[1@d[1@o[1@ 
+Password:
+fatal: 'master' does not appear to be a git repository
+fatal: Could not read from remote repository.
+
+Please make sure you have the correct access rights
+and the repository exists.
+]0;~/MAIN/masondjevents.comAdrielTheMaster:masondjevents.com adriel$ sudo git pull master[K[K[K[K[K[K[K
+There is no tracking information for the current branch.
+Please specify which branch you want to merge with.
+See git-pull(1) for details.
+
+    git pull <remote> <branch>
+
+If you wish to set tracking information for this branch you can do so with:
+
+    git branch --set-upstream-to=origin/<branch> master
+
+]0;~/MAIN/masondjevents.comAdrielTheMaster:masondjevents.com adriel$ sudo git pull masondj [K [K[K[K[K[K[K[K[Korigin
+You asked to pull from the remote 'origin', but did not specify
+a branch. Because this is not the default configured remote
+for your current branch, you must specify a branch on the command line.
+]0;~/MAIN/masondjevents.comAdrielTheMaster:masondjevents.com adriel$ sudo git pull origin ms[Kaster
+From https://github.com/AdrielC/masondjevents.com
+ * branch            master     -> FETCH_HEAD
+fatal: refusing to merge unrelated histories
+]0;~/MAIN/masondjevents.comAdrielTheMaster:masondjevents.com adriel$ sudo git pull origin master[Ksudo git pull origin master[1P[1P[1P[1P[1@m[1@e[1@r[1@g[1@e
+merge: origin - not something we can merge
+]0;~/MAIN/masondjevents.comAdrielTheMaster:masondjevents.com adriel$ sudo git merge origin master[K[K[K[K[K[K[K[K[K[K[K[K[K[K
+fatal: No remote for the current branch.
+]0;~/MAIN/masondjevents.comAdrielTheMaster:masondjevents.com adriel$ sudo git merge[C[C[C[C[C[C[C[C[C[C[C[C[C[C[1P[1P[1P[1P[1P
+fatal: No remote for the current branch.
+]0;~/MAIN/masondjevents.comAdrielTheMaster:masondjevents.com adriel$ s[Kgit rebase origin [K [K./[K[K/master
+Cannot rebase: You have unstaged changes.
+Please commit or stash them.
+]0;~/MAIN/masondjevents.comAdrielTheMaster:masondjevents.com adriel$ 
