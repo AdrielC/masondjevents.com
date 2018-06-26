@@ -228,7 +228,7 @@ googleAnalytics = ""
     subtitle  = "Lorem ipsum dolor sit amet consectetur."
     buttonText = "Send message"
     netlify = true
-    data-netlify= "true"
+    data-netlify = true
     action = "/"
 
     # Since this template is static, the contact form uses www.formspree.io as a
