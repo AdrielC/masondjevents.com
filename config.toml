@@ -166,7 +166,7 @@ googleAnalytics = ""
     #center = true
     title = "Our amazing team"
     subtitle = "We are really sick dudes"
-    description = "Ayyyyyy lmaooooooooo"
+    description = "Ayyyyyy"
 
     # All team member's pictures are stored under 'static/img/team'.
     # Replace them with your own too.
